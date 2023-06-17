@@ -49,3 +49,71 @@
 #### Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 
 #### Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
+
+## Activity 6
+
+### Vamos a empezar fuerte con un bucle for doble para imprimir números
+
+### Realiza un script que escriba una pirámide del 1 al 30 de la siguiente forma :
+
+#### 1
+
+#### 22
+
+#### 333
+
+#### 4444
+
+#### 55555
+
+#### 666666
+
+## Activity 7
+
+### En el siguiente ejercicio vamos a generar otra pirámide
+
+### Crea script para generar pirámide siguiente con los números del 1 al número que indique el usuario (no mayor de 50)
+
+### Ejemplo:
+
+#### 1
+
+#### 12
+
+#### 123
+
+#### 1234
+
+#### 12345
+
+#### 123456
+
+## Activity 8
+
+### En en siguiente ejercicio vamos a practicar bucles y múltiplos de números
+
+### Realiza un script que escriba los números del 1 al 500, que indique cuales son múltiplos de 4 y de 9 y que cada 5 líneas muestre una línea horizontal.
+
+### Ejemplo:
+
+#### 1
+
+#### 2
+
+#### 3
+
+#### 4 (Múltiplo de 4)
+
+#### 5-
+
+#### ————————————————————-
+
+#### 6
+
+#### 7
+
+#### 8 (Múltiplo de 4)
+
+#### 9 (Múltiplo de 9)
+
+#### 10
