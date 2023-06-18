@@ -117,3 +117,57 @@
 #### 9 (Múltiplo de 9)
 
 #### 10
+
+## Activity 8
+
+### Para terminar vamos a practicar la creación de una tabla utilizando bucles
+
+### Realiza un script que pida número de filas y columnas y escriba una tabla. Dentro cada una de las celdas deberá escribirse un número consecutivo en orden descendente.
+
+### Si, por ejemplo, la tabla es de 7×5 los números irán del 35 al 1.
+
+## Activity 9
+
+### En el siguiente ejercicios vamos a utilizar un método de la clase Math para obtener el número mayor de una lista
+
+### Más información en Métodos de la clase Math JavaScript
+
+### Realiza un script que pida por teclado 3 edades y 3 nombres e indique el nombre del mayor
+
+## Activity 10
+
+### En el siguiente ejercicio vamos a utilizar de nuevo métodos de la clase Math que sirven para generar números aleatorios
+
+### Más información en Métodos de la clase Math JavaScript
+
+### Realiza un script que genere un número aleatorio entre 1 y 99
+
+## Activity 11
+
+### Continuando lo visto en el ejercicio anterior, vamos a realizar uno nuevo añadiendo un poco más de complejidad
+
+### Genera 3 números aleatorios entre 1 y 99 pero que no se repita ninguno
+
+## Activity 12
+
+### En el siguiente ejercicio usaremos los números aleatorios para rellenar una quiniela
+
+### Realiza un script que imprima 14 resultados aleatorios de una quiniela 1 X 2.
+
+### Ej:
+
+### Resultado 1: 1
+
+### Resultado 2: X
+
+### Resultado 3: 2
+
+### …..
+
+### Resultado 14: 2
+
+## Activity 13
+
+### Finalizamos añadiendo probabilidades al ejercicio anterior de la quiniela
+
+### Realiza el script anterior pero con la probabilidad de que salga el 1 sea del 60%, la de la X del 30% y la del 2 del 10%
