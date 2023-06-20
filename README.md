@@ -171,3 +171,51 @@
 ### Finalizamos añadiendo probabilidades al ejercicio anterior de la quiniela
 
 ### Realiza el script anterior pero con la probabilidad de que salga el 1 sea del 60%, la de la X del 30% y la del 2 del 10%
+
+## Activity 14
+
+### En el siguiente ejercicio vamos a pasar un string a mayúsculas utilizando el método toUpperCase
+
+### Más información en Métodos de la clase String JavaScript
+
+### Realiza un script que pida un texto y lo muestre en mayúsculas.
+
+## Activity 15
+
+### En el siguiente ejercicio vamos a recorrer los caracteres de un string usando un bucle y el método charAt
+
+### Más información en Métodos de la clase String JavaScript
+
+### Realiza un script que pida una cadena de texto y la muestre poniendo el signo – entre cada carácter sin usar el método replace.
+
+#### Ej: si tecleo “hola qué tal”, deberá salir “h-o-l-a- -q-u-e- -t-a-l”.
+
+## Activity 16
+
+### Un nuevo ejercicio para seguir practicando con el método charAt
+
+### Realiza un script que cuente el número de vocales que tiene un texto.
+
+## Activity 17
+
+### Seguimos con un ejercicio para complicar un poquito más el uso de charAt
+
+### Pedimos una cadena de texto que sabemos que puede contener paréntesis. Realiza un script que extraiga la cadena que se encuentra entre los paréntesis.
+
+#### Ej: Si escribimoe el texto “Hola (que) tal” se mostrará “que”. Si no existe el signo “(“ mostrará una cadena vacía y si existe el signo “(“pero no el signo “)” mostrará desde el primer paréntesis hasta el final.
+
+## Activity 18
+
+### En el siguiente ejercicio vamos a intentar darle la vuelta a un string
+
+### Realiza un script que pida una cadena de texto y la devuelva al revés.
+
+#### Ej: si tecleo “hola que tal” deberá mostrar “lat euq aloh”.
+
+## Activity 19
+
+### Por último vamos a hacer una validación de un string para ver si se lee igual en ambas direcciones
+
+### Realiza un script que pida un texto e indique si es un palíndromo.
+
+#### Ejemplo de palíndromo: “Dabale arroz a la zorra el abad”.
