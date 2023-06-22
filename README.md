@@ -219,3 +219,25 @@
 ### Realiza un script que pida un texto e indique si es un palíndromo.
 
 #### Ejemplo de palíndromo: “Dabale arroz a la zorra el abad”.
+
+## Activity 20
+
+### En el siguiente ejercicio repasaremos el bucle for doble y la utilización de banderas. Una bandera es una variable booleana que tiene un valor inicial y puede cambiar de valor según las condiciones.
+
+### Realiza un script que muestre la posición de la primera vocal de un texto introducido por teclado
+
+## Activity 21
+
+### Vamos a hacer una nueva versión del ejercicio anterior
+
+### Realiza el mismo ejercicio anterior pero utilizando el método includes.
+
+## Activity 22
+
+### En el siguiente ejercicio nos centraremos en los números para generar la serie de fibonacci
+
+### Realiza un script que muestre la serie de fibonacci hasta un número entre 1 y 100 pedido por teclado
+
+## Activity 23
+
+### Realiza un script que simule el juego de Piedra Papel Tijera contra el Pc.
