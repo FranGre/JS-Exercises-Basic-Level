@@ -1,35 +1,36 @@
 "use strict";
+const books = [];
 
 starApp();
 
 function starApp() {
-  let title = prompt("Introduzca el titulo de la receta");
-  let servers = prompt("Introduzca el número de raciones");
-  let ingredientes = prompt(
-    "Introduzca que ingredientes lleva separados por una ,"
-  );
+  let oniria = new Book("Oniria", "Alberto Fausto", true);
+  let cleanCode = new Book("Clean Code", "Robert C. Martin", false);
+  books.push(oniria);
+  books.push(cleanCode);
 
-  if (!isInt(servers)) {
-    alert("Las raciones deben ser un número entero");
-    return;
-  }
-
-  if (servers <= 0) {
-    alert("Debe haber como mínimo una ración");
-    return;
-  }
-
-  const recipe = new Recipe(title, servers, ingredientes.split(","));
-
-  console.log(recipe);
+  showBooks(books);
 }
 
-function Recipe(title, servings, ingredientes) {
+function showBooks(books) {
+  for (let i = 0; i < books.length; i++) {
+    let textReaded = handleIsReadText(books[i]);
+    document.write(
+      textReaded + ` read \"${books[i].title}\" by ${books[i].author}`
+    );
+    document.write("<br>");
+  }
+}
+
+function handleIsReadText(book) {
+  if (book.isAlreadyRead) {
+    return "You already";
+  }
+  return "You still need to";
+}
+
+function Book(title, author, isAlreadyRead) {
   this.title = title;
-  this.servings = servings;
-  this.ingredientes = ingredientes;
-}
-
-function isInt(number) {
-  return Number.parseInt(number) == number;
+  this.author = author;
+  this.isAlreadyRead = isAlreadyRead;
 }
